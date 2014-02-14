@@ -79,3 +79,8 @@ if (!isDedicated) then {
 
 //Adjust here for time of day/night (Current setting is 3hr day/night)
 [4,false,true] execFSM "core_time.fsm";
+
+// Efecxtos meteorologicos
+_null = [] execVM "fixes\effects.sqf";
+// EarthQuake
+null = [] execVM "fixes\earthquake.sqf"; 

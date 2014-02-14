@@ -144,3 +144,19 @@ class DayZ_loadingScreen
 };
 //Sarge's AI
 #include "addons\SARGE\SAR_define.hpp"
+
+// **** START COPY / PASTE LINES ****
+// ----------------------------- / Drink water \ ----------------------
+class CfgSounds
+{
+	sounds[] = {};
+	
+	class drink_water
+	{
+	name="drink_water";
+	sound[]={\Scripts\drink_water\sound\drink_water.ogg,1,1};
+	titles[] = {};
+	};
+};
+// ----------------------------- \ Drink water / ----------------------
+// **** END COPY AND PASTE LINES ****
